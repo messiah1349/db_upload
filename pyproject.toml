@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "db-transfer"
+version = "0.1.0"
+description = ""
+authors = ["messiah1349 <messiah1349@gmail.com>"]
+readme = "README.md"
+packages = [{include = "db_transfer"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+sqlalchemy = "^2.0.23"
+sqlalchemy-utils = "^0.41.1"
+python-dotenv = "^1.0.0"
+psycopg2-binary = "2.9.5"
+fastapi = "^0.104.1"
+uvicorn = "^0.24.0.post1"
+python-multipart = "^0.0.6"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
